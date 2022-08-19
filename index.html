@@ -1,0 +1,773 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+     <head>
+          <title> Portfolio Website</title>
+     </head>
+
+          <style>
+               
+               body {
+                background-color: navy;
+                
+}
+h1 {
+
+     text-align: left;
+     padding-bottom: 0.5%;
+     padding-top: 2.5ch;
+     padding-left: 10%;
+     text-size-adjust: 14px;
+     color: aliceblue;
+}
+span {
+     
+     text-align: left;
+     padding: 3px;
+     padding-left: 10%;
+     color: aliceblue;
+     font-size: larger;
+
+}
+
+a {
+     text-align: center;
+}
+
+h2 {
+     text-align: left;
+     padding: 1px;
+     padding-left: 10%;
+     background: linear-gradient(270deg, #e42b13,  #b527cf);
+     animation-name: example;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation-duration: 4s;
+     font-size: 700%;
+     animation-duration: 2.5s;
+     animation-name: slidein;
+}
+@keyframes slidein {
+     from {
+       margin-left: 100%;
+       width: 300%;
+     }
+   
+     to {
+       margin-left: 0%;
+       width: 100%;
+     }
+   }
+
+h5 {
+     text-align: center;
+     color: aliceblue;
+     padding-top: 7%;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#header{
+  background-attachment: fixed;
+}
+
+   
+   .wrapper{
+     height: 100%;
+     width: auto;
+ 
+     background-image: url("https://i.ibb.co/M6yXVXz/background.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: 100%;
+     
+   }
+    .dot{
+     height: 30px;
+     width: 30px;
+     border-radius: 60px;
+     background: rgba(255, 255, 255, 0.5);
+     position: absolute;
+     top: 2%;
+     right: 20%;
+     bottom: 0;
+}
+.wrapper div:nth-child(1){
+     top: 20%;
+     left: 26%;
+     animation: animate 8s linear infinite;
+}
+.wrapper div:nth-child(2){
+     top: 60%;
+     left: 80%;
+     animation: animate 6s linear infinite;
+}
+.wrapper div:nth-child(3){
+     top: 40%;
+     left: 40%;
+     animation: animate 3s linear infinite;
+}
+.wrapper div:nth-child(4){
+     top: 66%;
+     left: 30%;
+     animation: animate 7s linear infinite;
+}
+.wrapper div:nth-child(5){
+     top: 90%;
+     left: 10%;
+     animation: animate 9s linear infinite;
+}
+.wrapper div:nth-child(6){
+     top: 30%;
+     left: 60%;
+     animation: animate 5s linear infinite;
+}
+.wrapper div:nth-child(7){
+     top: 70%;
+     left: 20%;
+     animation: animate 7s linear infinite;
+}
+.wrapper div:nth-child(8){
+     top: 75%;
+     left: 60%;
+     animation: animate 10s linear infinite;
+}
+.wrapper div:nth-child(9){
+     top: 50%;
+     left: 50%;
+     animation: animate 8s linear infinite;
+}.wrapper div:nth-child(10){
+     top: 20%;
+     left: 41%;
+     animation: animate 9s linear infinite;
+}
+.wrapper div:nth-child(11){
+     top: 50%;
+     left: 30%;
+     animation: animate 8s linear infinite;
+}
+.wrapper div:nth-child(12){
+     top: 70%;
+     left: 50%;
+     animation: animate 6s linear infinite;
+}
+.wrapper div:nth-child(13){
+     top: 40%;
+     left: 60%;
+     animation: animate 5s linear infinite;
+}
+.wrapper div:nth-child(14){
+     top: 20%;
+     left: 30%;
+     animation: animate 8s linear infinite;
+}
+.wrapper div:nth-child(15){
+     top: 20%;
+     left: 10%;
+     animation: animate 4s linear infinite;
+}
+.wrapper div:nth-child(16){
+     top: 70%;
+     left: 90%;
+     animation: animate 11s linear infinite;
+}
+.wrapper div:nth-child(17){
+  top: 79%;
+  left: 93%;
+  animation: animate 17s linear infinite;
+}
+@keyframes animate{
+     10%{
+          transform: scale(0) translateY(0) rotate(40deg);
+     }
+     100%{
+          transform: scale(1.3) translateY(-100px) rotate(270deg);
+     }
+}
+article {
+     text-align: center;
+     font-size: 40;
+     font-style: italic;
+     color: black;
+
+}
+
+blockquote::before {
+     content: open-quote;
+   }
+   blockquote::after {
+     content: close-quote;
+   }
+   blockquote {
+     quotes: "“" "”" "‘" "’";
+   }
+   
+   blockquote {
+     text-align: left;
+     font-family: nonitu;
+     font-weight: 100;
+     color: white;
+     padding-left: 15%;
+     padding-bottom: 12%;
+     text-decoration: wavy;
+     font-size: 150%;
+     font-stretch: expanded;
+     
+     
+}
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+  ul.icons li {
+    display: inline-block;
+    padding: 0 0.75em 0 0;
+  }
+
+    ul.icons li:last-child {
+      padding-right: 0;
+    }
+
+    ul.icons li a {
+      border-radius: 100%;
+      box-shadow: inset 0 0 0 1px #ffffff;
+      display: inline-block;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      text-align: center;
+      width: 2.25rem;
+    }
+
+      ul.icons li a:hover {
+        background-color: rgba(255, 255, 255, 0.075);
+      }
+
+      ul.icons li a:active {
+        background-color: rgba(255, 255, 255, 0.175);
+      }
+
+
+h4 {
+     background: fixed;
+     background-color: #f6f6f8;
+     background-image: none;
+     place-items: fixed;
+     text-align: center;
+     font-size: 200%;
+     font-family: Arial, Helvetica, sans-serif;
+     padding-top: 2%;
+     color: rgb(0, 3, 5);
+     
+}
+.my {
+     background-size: cover;
+     background: fixed;
+     background-color: #f6f6f8;
+     background-attachment: fixed;
+     background-clip: border-box;
+     text-align: center;
+     font-size: 120%;
+     color: rgb(72, 154, 226);
+     padding-top: 4%;
+}
+
+.on {
+     font-style: normal;
+     text-align: left;
+     padding-left: 15%;
+     padding-top: 2%;
+     color: azure;
+          font-size: 250%;
+     
+}
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+     font-size: 0.75em;
+     color: #999;
+     top: -5px;
+     -webkit-transition: all 0.225s ease;
+     transition: all 0.225s ease;
+ }
+ 
+ .styled-input {
+     float: left;
+     width: 293px;
+     margin: 1rem 0;
+     position: relative;
+     border-radius: 4px;
+ }
+ 
+ @media only screen and (max-width: 768px){
+     .styled-input {
+         width:100%;
+     }
+ }
+ 
+ .styled-input label {
+     color: #999;
+     padding: 1.3rem 30px 1rem 30px;
+     position: absolute;
+     top: 10px;
+     left: 0;
+     -webkit-transition: all 0.25s ease;
+     transition: all 0.25s ease;
+     pointer-events: none;
+ }
+ 
+ .styled-input.wide { 
+     width: 650px;
+     max-width: 100%;
+ }
+   
+ 
+ input,
+ textarea {
+     padding: 30px;
+     border: 0;
+     width: 100%;
+     font-size: 1rem;
+     background-color: #2d2d2d;
+     color: white;
+     border-radius: 4px;
+ }
+ 
+ input:focus,
+ textarea:focus { outline: 0; }
+ 
+ input:focus,
+ textarea:focus {
+     width: 100%;
+     -webkit-transition: all 0.075s ease;
+     transition: all 0.075s ease;
+ }
+ 
+ textarea {
+     width: 100%;
+     min-height: 15em;
+ }
+ 
+ .input-container {
+     width: 650px;
+     max-width: 100%;
+     margin: 20px auto 25px auto;
+ }
+ 
+ 
+ .submit-btn {
+     float: left;
+     padding: 7px 35px;
+     border-radius: 60px;
+     display: inline-block;
+     background-color: #4b8cfb;
+     color: white;
+     font-size: 18px;
+     cursor: pointer;
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+               0 2px 10px 0 rgba(0,0,0,0.07);
+     -webkit-transition: all 300ms ease;
+     transition: all 300ms ease;
+ }
+ 
+ .submit-btn:hover {
+     transform: translateY(1px);
+     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+               0 1px 1px 0 rgba(0,0,0,0.09);
+ }
+ .get {
+     background-image: none;
+     background-radius: 5%;
+     background-position: fixed;
+     background-attachment: fixed;
+
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  position: none;
+  bottom: 0;
+  left: 0;
+background-color: #3ee577;
+background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,b{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+.topic {
+     font-size: 290%;
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle b{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #eb2f06;
+}
+footer .bottom{
+     width: 100%;
+     text-align: right;
+     color: #d9d9d9;
+     padding: 0 40px 5px 0;
+   }
+   footer .bottom b{
+     color: #eb2f06;
+   }
+   footer b{
+     transition: all 0.3s ease;
+   }
+   footer a:hover{
+     color: #eb2f06;
+   }
+   @media (max-width:1100px) {
+     footer .content .middle{
+       padding-left: 50px;
+     }
+   }
+   @media (max-width:950px){
+     footer .content .box{
+       width: 50%;
+     }
+     .content .right{
+       margin-top: 40px;
+     }
+   }
+   @media (max-width:560px){
+     footer{
+       position: bottom;
+     }
+     footer .content .box{
+       width: 100%;
+       margin-top: 30px;
+     }
+     footer .content .middle{
+       padding-left: 0;
+     }
+   }
+   .bottom {
+    color: #f9fcfc;
+   }
+ .cat {
+  background-image: url(../ank/img5.jpg);
+  height: 100%;
+padding-top: 4%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ ul.socialIcons {
+  padding: 0;
+  text-align: center;
+}
+
+.socialIcons li {
+  background-color: yellow;
+  list-style: none;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+.socialIcons li a {
+  display: block;
+  padding: 0.5em;
+  min-width: 4em;
+  max-width: 4em;
+  height: 4em;
+  white-space: nowrap;
+  line-height: 1.5em; /*it's working only when you write text with icon*/
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+}
+
+.socialIcons li i {
+  margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+  max-width: 400px;
+  padding-right: 1em;
+}
+
+.socialIcons .facebook {
+  background-color: #3b5998;
+  box-shadow: 0 0 16px #3b5998;
+}
+
+.socialIcons .twitter {
+  background-color: #00aced;
+  box-shadow: 0 0 16px #00aced;
+}
+
+.socialIcons .instagram {
+  background-color: #cd486b;
+  box-shadow: 0 0 16px #cd486b;
+}
+
+.socialIcons .linkedin {
+  background-color: #2f5fe4;
+  box-shadow: 0 0 16px #2f5fe4;
+}
+
+.socialIcons .Whatsapp {
+  background-color: #1db410;
+  box-shadow: 0 0 16px #1db410;
+}
+
+.socialIcons .github {
+  background-color: #666666;
+  box-shadow: 0 0 16px #666666;
+}
+img {
+  width: 25%;
+  height: 40%;
+  border-radius: 45%;
+  align-items: left;
+  padding-left: 5%;
+  padding-right: 2%;
+}
+
+.tell {
+  background-color: #ff00aade;
+}
+          </style>
+     </head>
+     <body>
+          <div class="loader">
+          <header>
+               
+          <div class="wrapper" >  
+               <br/>
+               <br/><br/>    
+               <br/>
+     <h1>Hii! </h1>
+          <br/><br/>
+          <h2> I'm Ankit Yadav</h2>
+          <br/>
+     <span> Web Developer |    Freelancer |    Programmer  |   Ideator</span><br/>
+    
+     <br/>
+
+
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <div class="dot"></div>
+     <br/><br/><br/><br/><br/><br/><br/>     </div><br/><br/>     </div><br/><br/>
+      <br/>
+  
+          </div>
+          </header>
+          <img style="width: 33%;" src="../ank/img41.jpg" alt="">
+          <img style="width: 33%;"  src="../ank/im43.jpg" alt="">
+          <img style="width: 33%;"  src="../ank/img42.jpg" alt="">
+                    <br/><br/><br/><br/><br/><br/><br/>
+<div class="bg-pan-left">
+<h3 class="my" ><a href="https://www.linkedin.com/in/ankit-yadav-75721a215" >Work</a></h3>
+<h4 class="font-display font-bold text-neutrals-900 text-4xl md:text-5xl mb-8">
+     Dig into my universe
+<br/>
+<br/><br/>
+<br/>
+
+   </h4>
+</div>
+<div class="get" alt="" >
+  <br/><br/><br/>
+  
+ <div class="tell">  
+   <h3 class="on" >About</h3>
+  
+<img src="../ank/Ankit.jpg" alt="">
+<blockquote>I'm Ankit, a passionate freelancer bringing you programming and design from the future. I am experienced in developing web and desktop applications including full front end design. This includes brand identity, graphics and illustrations.</blockquote>     
+<br/>
+</div>
+</div>
+
+<h3 class="on" >Contact </h3>
+<form>
+
+  <br/><br/>
+     <div class="container">
+          <div class="row">
+             
+          </div>
+          <div class="row">
+
+          </div>
+          <div class="row input-container">
+              <div class="col-xs-12">
+                <div class="styled-input wide">
+                  <input type="text" required />
+                  <label>Name</label> 
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                  <input type="text" required />
+                  <label>Email</label> 
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                  <input type="text" required />
+                  <label>Phone Number</label> 
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="styled-input wide">
+                  <textarea required></textarea>
+                  <label>Message</label>
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="btn-lrg submit-btn">Hit<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 inline-block ml-2" viewBox="0 0 24 24" fill="currentColor"><path d="M20.563 3.34a1.002 1.002 0 0 0-.989-.079l-17 8a1 1 0 0 0 .026 1.821L8 15.445v6.722l5.836-4.168 4.764 2.084a1 1 0 0 0 1.399-.85l1-15a1.005 1.005 0 0 0-.436-.893zm-2.466 14.34-5.269-2.306L16 9.167l-7.649 4.25-2.932-1.283 13.471-6.34-.793 11.886z"></path></svg>
+                </div>
+              </div>
+              
+          </div>
+        </div>
+   </form>
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   <br/><br/><br/><br/>
+   
+   <ul class="socialIcons">
+    <li class="facebook"><a href="https://www.facebook.com/profile.php?id=100008014989890"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+    <li class="twitter"><a href="https://twitter.com/Ankitkr0fficial?t=pV7yScEIIcnozwieeuYCPg&s=09"><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
+    <li class="instagram"><a href="https://instagram.com/ankityadav14_?igshid=YmMyMTA2M2Y="><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+    <li class="linkedin"><a href="https://www.linkedin.com/in/ankit-yadav-75721a215"><i class="fa fa-fw fa-linkedin"></i>LinkedIn</a></li>
+    <li class="whatsapp"><a href="https://wa.me/919754147440?text=Hello!!%0AThanks%20for%20your%20interest......."><i class="fa fa-fw fa-whatsapp"></i>WhatsApp</a></li>
+    <li class="github"><a href="https://github.com/ankityadav14"><i class="fa fa-fw fa-github"></i>GitHub</a></li>
+  </ul>
+
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   <footer>
+     <div class="content">
+       <div class="left box">
+         <div class="upper">
+           <div class="topic">About </div>
+           <p>I'm Ankit, a passionate freelancer bringing you programming and design from the future. I am experienced in developing web and desktop applications including full front end design. This includes brand identity, graphics and illustrations.</p>
+         </div>
+         <div class="lower">
+           <div class="topic">Contact </div>
+           <div class="phone">
+             <a href="#"><i class="fab fa-phone-volume  phone-volume "></i>+91 9754147440</a>
+           </div>
+           <div class="email">
+             <a href="ay2000ankit@gmail.com"><i class="fab fa-gmail gmail"></i>ay2000ankit@gmail.com</a>
+           </div>
+         </div>
+       </div>
+       <div class="middle box">
+         <div class="topic">Services</div>
+       <b> Web Design, Development<br/>
+        Web UX Design, Reasearch<br/>
+        Web User Interface Design<br/>
+        Theme Development, Design<br/>
+        Mobile Application Design<br/>
+        Wire raming & Prototyping</b>
+       </div>
+       <div class="right box">
+         <div class="topic">Subscribe </div>
+         <form action="">
+           <input type="text" placeholder="Enter email address">
+           <input type="submit" name="" value="Send">
+           
+         </form>
+       </div>
+      </div><br/><br/>
+       <div class="bottom">
+        <p>Copyright © 2022 Ankit Yadav All rights reserved</p>
+      </div> 
+ 
+   </footer>
+  
+     </body>
+</html>
